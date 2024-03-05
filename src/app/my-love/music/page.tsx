@@ -40,7 +40,7 @@ function MusicPage({ }: Props) {
                 <Playlist />
             </Transitioner>
             <main className={`music-main h-full relative ${showPlaylist ? "has-margin" : "no-margin"} `}>
-                <div className="absolute top-0 z-100 bg-black flex flex-col rounded-tr-md rounded-br-md overflow-hidden">
+                <div className="absolute top-36 z-100 bg-black flex flex-col rounded-tr-md rounded-br-md overflow-hidden">
                     <button onClick={() => { setShowPlaylist(!showPlaylist) }} className="text-monoPink-400 rounded-tr-md p-1 text-3xl hover:bg-monoPink-400 hover:text-black">
                         <LuMenuSquare />
                     </button>
