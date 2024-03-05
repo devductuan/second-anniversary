@@ -7,7 +7,7 @@ export const mails = [
     }, {
         content: "Em bé đang làm gì thía? \nSao khum nhắn tin cho anh"
     }, {
-        content: "Nhớ món thịt kho tàu với canh kim chi quạ"
+        content: "Nhớ món thịt kho tàu \nvới canh kim chi quạ"
     },
     {
         content: "Ước zì được ôm em bé ik ngủ"
