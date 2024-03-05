@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import React, { useCallback, useEffect } from 'react'
+import React, { Fragment, useCallback, useEffect } from 'react'
 import duration from 'dayjs/plugin/duration'
 import ImageContainer from '../ImageContainer';
 import Image from 'next/image';
@@ -27,9 +27,10 @@ function Countdown({ }: Props) {
     return (
         <section className="bg-monoPink-300">
             <div className="relative font-cursive py-20 container mx-auto px-4 flex items-center justify-center text-white text-center flex-col gap-4">
-                <p>Còn</p>
-                <p className="text-4xl">{getDaysUntilNextAnniversary()}</p>
-                <p className="text-center"> ngày nữa là đến ngày kỉ niệm tiếp theo rùi</p>
+                {getDaysUntilNextAnniversary() === 0 ? <p className="text-4xl">Chúc mừng ngày kỷ niệm của chúng mình !</p> : <Fragment>
+                    <p>Còn</p>
+                    <p className="text-4xl">{getDaysUntilNextAnniversary()}</p>
+                    <p className="text-center"> ngày nữa là đến ngày kỉ niệm tiếp theo rùi</p></Fragment>}
                 <p className="text-4xl animate-ping my-4 "><FaHeart /></p>
                 <p className=" ">Mình đã cùng nhau đi qua</p>
                 <p className="text-4xl">{dayjs().diff("2022-03-05", "days")}</p>
