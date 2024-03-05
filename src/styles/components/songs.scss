@@ -140,6 +140,7 @@
 
 .lyrics-container {
     height: calc(100% - 180px);
+    white-space: pre-wrap;
     @screen lg {
         height: calc(100% - 420px);
         white-space: pre-wrap;
