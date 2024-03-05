@@ -102,16 +102,16 @@ export const songs: Song[] = [
         lyricsString: 'Anh không chắc ngày mai không buồn\nTrong tâm trí mình anh chẳng ai chẳng ai muốn hiểu thấu\nSao em không nói một câu lúc này\nDù chỉ một lời nói, đủ khiến cho em giãi bày\n\nKhông quan tâm ai đúng ai sai\nAnh chỉ muốn ở bên em giờ này\nAnh xin lỗi vì làm em buồn\n\nSợ rằng 1 ngày mai không thấy em mỉm cười\nSẽ thế nào nếu như không có em cùng bên đời\nMột ngày chợt vắng tiếng nói ánh mắt vui tươi hồn nhiên của em\nAnh muốn ôm em vào lòng\nÔm cả những nỗi buồn riêng em\n\nAnh không biết dù mai thế nào,\nNhưng anh biết giờ đây tình yêu dường như mới vừa chớm,\nAnh vẫn nhớ nụ hôn ban đầu,\nGiờ này anh ước, được mãi ôm em dài lâu\n\nKhông quan tâm ai đúng ai sai,\nAnh chỉ muốn mình mãi yêu như vậy,\nLiệu em có suy nghĩ như anh\n\nAnh không chắc ngày mai không buồn,\nAnh không chắc ngày mai trời mưa hay trời nắng,\nNhưng anh biết rằng ngay lúc này,\nTình mình lại vừa chớm, và anh muốn ôm em thật chặt\n'
 
     },
-    {
-        id: "chimdam",
-        name: "Chìm đắm",
-        position: "right",
-        thumbnail: "/images/troimua.webp",
-        description: "Đắm chìm trong đôi mắt em rùi đó",
-        songUrl: "/songs/chimdam.wav",
-        order: 8,
-        lyricsString: 'Những ánh sáng lấp lánh như thiên đàng\nLong lanh như vì sao, trông thật dịu dàng\nVà một hình bóng quen thuộc, hôn nhẹ lên mái tóc\nLà một thói quen ta chỉ mong giữ mãi,\n\nSay mê trong ban mai, dưới ánh trăng vàng,\nĐôi tay đan đôi tay, tiếng chim ca hát vang,\nLà giọng nói em thì thầm vào mỗi tối,\nLà bài hát du dương anh như lạc vào trong giấc mơ\n\nThôi thì đành nhớ em anh chìm đắm sau khi buông lời chào nhau,\nTrong đêm tối, chiếc hôn nào ngỡ như chưa từng trao, \nTìm đâu hơi ấm nơi yên sau còn trống\nMai này mình có nhau anh nguyện sẽ yêu em hơn bao ngày qua,\nĐể thôi lại chìm đắm vào mùa đông rét căm,\nAnh lại nhớ môi hôn của em\n\nNếu có những ước muốn, anh xin nhận tội,\nYêu thương đang căng ra, con tim chật chội,\nLại một lời hứa thôi đành chờ đợi tha thứ,\nLà vì lời nói không thành, buông lời giận dữ\n\nGiờ anh biết nỗi buồn ngăn cách đôi mình,\nChẳng thể giúp hai ta ngỏ lời,\nMột lời cũng chẳng còn nghĩa lúc này,\nAnh xin lỗi và xin lỗi em'
-    },
+    // {
+    //     id: "chimdam",
+    //     name: "Chìm đắm",
+    //     position: "right",
+    //     thumbnail: "/images/troimua.webp",
+    //     description: "Đắm chìm trong đôi mắt em rùi đó",
+    //     songUrl: "/songs/chimdam.wav",
+    //     order: 8,
+    //     lyricsString: 'Những ánh sáng lấp lánh như thiên đàng\nLong lanh như vì sao, trông thật dịu dàng\nVà một hình bóng quen thuộc, hôn nhẹ lên mái tóc\nLà một thói quen ta chỉ mong giữ mãi,\n\nSay mê trong ban mai, dưới ánh trăng vàng,\nĐôi tay đan đôi tay, tiếng chim ca hát vang,\nLà giọng nói em thì thầm vào mỗi tối,\nLà bài hát du dương anh như lạc vào trong giấc mơ\n\nThôi thì đành nhớ em anh chìm đắm sau khi buông lời chào nhau,\nTrong đêm tối, chiếc hôn nào ngỡ như chưa từng trao, \nTìm đâu hơi ấm nơi yên sau còn trống\nMai này mình có nhau anh nguyện sẽ yêu em hơn bao ngày qua,\nĐể thôi lại chìm đắm vào mùa đông rét căm,\nAnh lại nhớ môi hôn của em\n\nNếu có những ước muốn, anh xin nhận tội,\nYêu thương đang căng ra, con tim chật chội,\nLại một lời hứa thôi đành chờ đợi tha thứ,\nLà vì lời nói không thành, buông lời giận dữ\n\nGiờ anh biết nỗi buồn ngăn cách đôi mình,\nChẳng thể giúp hai ta ngỏ lời,\nMột lời cũng chẳng còn nghĩa lúc này,\nAnh xin lỗi và xin lỗi em'
+    // },
     {
         id: "nhinthayemcuoi",
         name: "Nhìn thấy em cười",
@@ -119,7 +119,7 @@ export const songs: Song[] = [
         thumbnail: "/images/nhinthayemcuoi.webp",
         description: "Happy wife happy life :3",
         songUrl: "/songs/nhinthayemcuoi.wav",
-        order: 9,
+        order: 8,
         lyricsString: "là nắng hay nụ cười em vẽ lên bầu trời\nlà gió lay nhẹ hồn tôi màu mắt xanh ngời\nlà mưa nhẹ rơi..\nHân hoan chạm khẽ bờ môi\nDưới mái hiên này, có đôi tình nhân, hai ta\n\nNgười hỡi, bao ngày qua anh vẫn mong chờ\nỞ nơi ngôi nhà hạnh phúc mình vẫn thường mơ,\nCùng nhau sẻ chia,\nBuồn vui ngày tháng \nSau này, chúng ta chẳng lìa xa\n\nMột thói quen được biết tên từ lúc anh quen người,\nLà nói yêu và rất yêu người hỡi em yêu ơi,\nDù chỉ có một lòng nhưng anh vẫn luôn trao em,\nVì người mãi luôn là ánh dương rọi sáng soi cuộc đời\n\nVà nếu như mọi lí do để khiến anh vui lòng\nLà em đến bên cạnh mỗi khi đời kéo anh xoay vòng,\nNgưỡi hỡi, có biết bao nhiêu mọi thứ trên đời\nƯớc muốn của anh đã có em rồi\nVà một điều nhỏ nhoi\nLà được thấy em mỗi ngày\n\nTìm về những cơn mưa đầu mùa nơi ta gặp gỡ,\nTrải đầy là những nỗi nhớ khi buông lời chào sau chuyến đi,\nGiờ đây anh đã chọn lối đi chẳng còn cô đơn nữa\nXin cám ơn người,\nCám ơn người đã tới"
     },
     {
@@ -129,7 +129,7 @@ export const songs: Song[] = [
         thumbnail: "/images/mailanguoianhyeu.webp",
         description: "Nhé em <3",
         songUrl: "/songs/mailanguoianhyeu.wav",
-        order: 10,
+        order: 9,
         lyricsString: 'Anh vẫn nhớ lần đầu mà ta gặp nhau\nChẳng thể quên nụ cười\nRồi sau đó mình hẹn một mai thật lâu\nCứ ngỡ lạc nhau cả đời\nRồi một tối khi ta đi xem phim muộn\nChẳng thể chờ đợi thêm nữa\nAnh đã chờ để nói một câu từ lâu với người\n“Anh yêu em, yêu mất rồi!”\n\nChỉ mong rằng ngày mai ta mãi mãi không xa rời\nHãy nắm chặt tay anh nhé\n\nCùng chào mùa xuân với nhau từ nay về sau em nhé\nTừ đông qua mùa hạ\nMỗi ngày sẽ như thế\nCứ thế bên nhau thật lâu, thật lâu\nDù tháng năm qua làm đôi mắt mờ đi\nThì vẫn là em như vậy\nVẫn xinh như vậy\nNgười mãi luôn là người anh yêu\n\nĐã có lúc mình từng giận nhau\nTa chẳng nói một lời\nNém những nỗi buồn phiền vào trong từng câu\nRồi ta chẳng thèm nghĩ tới\nVà sau đó tự nhiên khi thấy em cười\nAnh vội vàng nhặt lấy\nNiềm hạnh phúc mà anh đang có trên đời\nLà được thấy em mỗi ngày\n\nHình dung\nĐược nhìn em xinh xắn mỗi khi em cười\nCó lẽ là anh gặp may\nKhi gặp được em\n\nCùng chào mùa xuân với nhau từ nay về sau em nhé\nTừ đông qua mùa hạ\nMỗi ngày sẽ như thế\nCứ thế bên nhau thật lâu, thật lâu\nDù tháng năm qua làm đôi mắt mờ đi\nThì vẫn là em như vậy\nVẫn xinh như vậy\nNgười mãi luôn là người anh yêu\n\nLa La La',
         liveLink: "https://soundcloud.com/andy-t-on-the-mic/demo-2-mai-la-nguoi-anh-yeu?si=7438d0f8167d49cc83690b1eda50d142&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     },
