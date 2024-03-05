@@ -3,8 +3,8 @@ import React, { ReactNode } from 'react'
 type Props = {
     children: ReactNode,
     borderRadius: number,
-    width: number,
-    height: number,
+    width?: number,
+    height?: number,
     className?: string
 }
 

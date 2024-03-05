@@ -30,36 +30,41 @@ function SongPlayer({ }: Props) {
                 {currentSong.lyricsString}
             </div>
             <div className=" bottom-0 w-full">
-                <div className="bg-black flex items-end gap-6 p-10 text-whites">
-                    <ImageContainer className="relative" width={200} height={200} borderRadius={8}>
-                        <Image
-                            onLoad={() => {
-                                setImageLoading(false)
-                            }}
-                            quality={40}
-                            style={{
-                                objectFit: "cover",
-                                visibility: isImageLoading ? "hidden" : "visible"
-                            }}
-                            fill
-                            src={currentSong.thumbnail}
-                            alt={currentSong.id}
-                            priority
-                        />
-                    </ImageContainer>
+                <div className="bg-black p-4 lg:p-10 text-whites">
+                    <div className="flex items-end gap-2 lg:gap-6 ">
+                        <ImageContainer className="relative" width={200} height={200} borderRadius={8}>
+                            <Image
+                                onLoad={() => {
+                                    setImageLoading(false)
+                                }}
+                                quality={40}
+                                style={{
+                                    objectFit: "cover",
+                                    visibility: isImageLoading ? "hidden" : "visible"
+                                }}
+                                fill
+                                src={currentSong.thumbnail}
+                                alt={currentSong.id}
+                                priority
+                            />
+                        </ImageContainer>
 
-                    <div>
-                        <h3 className="text-white font-bold text-xl lg:text-5xl mb-4">{currentSong.name}</h3>
-                        <p className={`text-white italic ${currentSong.liveLink ? "mb-8" : ""}`}>"{currentSong.description}"</p>
-                        {currentSong.liveLink ? <Link href={currentSong.liveLink} target='_blank'>
-                            <ImageContainer className="relative" width={60} height={35} borderRadius={8}>
-                                <Image quality={10} src="https://1000logos.net/wp-content/uploads/2021/04/Soundcloud-logo.png" alt="soundcloud" width={60} height={35} />
-                            </ImageContainer>
-                        </Link> : null}
+                        <div>
+                            <h3 className="text-white font-bold text-xl lg:text-5xl mb-4">{currentSong.name}</h3>
+                            <p className={`text-white italic ${currentSong.liveLink ? "mb-8" : ""}`}>"{currentSong.description}"</p>
+                            {currentSong.liveLink ? <Link href={currentSong.liveLink} target='_blank'>
+                                <ImageContainer className="relative" width={60} height={35} borderRadius={8}>
+                                    <Image quality={10} src="https://1000logos.net/wp-content/uploads/2021/04/Soundcloud-logo.png" alt="soundcloud" width={60} height={35} />
+                                </ImageContainer>
+                            </Link> : null}
+
+                        </div>
                     </div>
+                    <AudioPlayer handleTimeUpdate={handleTimeUpdate} song={currentSong} />
+
                 </div>
                 <div className="bg-monoPink-200">
-                    <AudioPlayer handleTimeUpdate={handleTimeUpdate} song={currentSong} />
+
                 </div>
             </div>
         </div>

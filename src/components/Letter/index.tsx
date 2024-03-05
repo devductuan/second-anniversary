@@ -27,8 +27,8 @@ function Letter({ closeModal }: Props) {
             </div>
             <div className="lg:w-1/2 h-full flex flex-col justify-center items-center gap-4 relative">
                 <div className="relative">
-                    <ImageContainer borderRadius={8} width={400} height={300} >
-                        <Image src="/images/sunset.webp" alt="sunset" width={500} height={500} />
+                    <ImageContainer borderRadius={8} className="letter-img">
+                        <Image src="/images/sunset.webp" alt="sunset" width={500} height={500} quality={30} />
                     </ImageContainer>
                     <HeartBoom />
                 </div>

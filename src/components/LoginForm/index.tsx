@@ -22,7 +22,7 @@ function LoginForm({ }: Props) {
         }
     }
     return (
-        <form className="flex flex-col" action="/my-love" onSubmit={handleSubmit}>
+        <form className="flex flex-col px-4" action="/my-love" onSubmit={handleSubmit}>
             <div className="flex items-center mb-4 gap-2 w-full">
                 <Transitioner
                     show={showHint}

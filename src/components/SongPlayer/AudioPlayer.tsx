@@ -12,17 +12,23 @@ function AudioPlayer({ song, handleTimeUpdate }: Props) {
     const { currentSong, setCurrentSong } = useContext(MusicContext)
 
     useEffect(() => {
-        if (audioRef?.current) {
-            audioRef.current.play()
+        try {
+            if (audioRef?.current) {
+                audioRef.current.play()
+            }
+        } catch (error) {
+            console.log("error", error)
         }
     }, [audioRef, currentSong])
 
     if (!currentSong) return null
 
     return (
-        <div className="w-full flex items-center justify-center">
+        <div className="mt-4">
             <audio
+                playsInline={true}
                 ref={audioRef}
+                autoPlay={false}
                 onEnded={() => {
                     if (currentSong.order + 1 >= songs.length) return
                     setCurrentSong(songs[currentSong.order + 1])
