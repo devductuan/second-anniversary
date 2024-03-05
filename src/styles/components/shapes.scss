@@ -1,0 +1,509 @@
+.heart {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+
+    &::before, &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 12px;
+      height: 20px;
+      border-radius: 50px 50px 0 0;
+      background: #ffb3c8;
+    }
+    
+    &::before {
+      left: 12px;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    
+    &::after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+
+    &.h-float-top-0 {
+      position: absolute;
+      animation: 2s moveup0 infinite;
+    }
+
+    z-index: 50;
+
+    &.h-float-top-1 {
+      position: absolute;
+      animation: 2s moveup1 infinite;
+    }
+
+    &.h-float-top-2 {
+      position: absolute;
+      animation: 2s moveup2 infinite;
+    }
+
+    &.h-float-top-3 {
+      position: absolute;
+      animation: 2s moveup3 infinite;
+    }
+
+    &.h-float-top-4 {
+      position: absolute;
+      animation: 2s moveup4 infinite;
+    }
+
+    &.h-float-top-5 {
+      position: absolute;
+      animation: 2s moveup5 infinite;
+    }
+
+    &.h-float-top-6 {
+      position: absolute;
+      animation: 2s moveup6 infinite;
+    }
+
+    &.h-float-top-7 {
+      position: absolute;
+      animation: 2s moveup7 infinite;
+    }
+
+    &.h-float-top-8 {
+      position: absolute;
+      animation: 2s moveup8 infinite;
+    }
+
+    &.h-float-top-9 {
+      position: absolute;
+      animation: 2s moveup9 infinite;
+    }
+
+    &.h-float-top-10 {
+      position: absolute;
+      animation: 2s moveup10 infinite;
+    }
+
+    &.h-float-top-11 {
+      position: absolute;
+      animation: 2s moveup11 infinite;
+    }
+
+    &.h-float-top-12 {
+      position: absolute;
+      animation: 2s moveup12 infinite;
+    }
+
+    &.h-float-top-13 {
+      position: absolute;
+      animation: 2s moveup13 infinite;
+    }
+
+    &.h-float-top-14 {
+      position: absolute;
+      animation: 2s moveup14 infinite;
+    }
+
+    &.h-float-top-15 {
+      position: absolute;
+      animation: 2s moveup15 infinite;
+    }
+
+    &.h-float-top-16 {
+      position: absolute;
+      animation: 2s moveup16 infinite;
+    }
+
+    &.h-boom-0 {
+      position: absolute;
+      animation: 2s moveup16 infinite;
+    }
+
+    &.h-boom-1 {
+      position: absolute;
+      animation: 2s moveup15 infinite;
+    }
+
+    &.h-boom-2 {
+      position: absolute;
+      animation: 2s moveup16 infinite;
+    }
+
+    &.h-boom-3 {
+      position: absolute;
+      animation: 2s moveup15 infinite;
+    }
+
+    &.h-boom-4 {
+      position: absolute;
+      animation: 2s moveup16 infinite;
+    }
+
+    &.h-boom-5 {
+      position: absolute;
+      animation: 2s moveup15 infinite;
+    }
+
+    &.h-boom-6 {
+      position: absolute;
+      animation: 2s moveup16 infinite;
+    }
+
+    &.h-boom-7 {
+      position: absolute;
+      animation: 2s moveup15 infinite;
+    }
+
+    &.h-boom-8 {
+      position: absolute;
+      animation: 2s moveup16 infinite;
+    }
+
+    &.h-boom-9 {
+      position: absolute;
+      animation: 2s moveup15 infinite;
+    }
+
+    &.h-boom-10 {
+      position: absolute;
+      animation: 2s moveup16 infinite;
+    }
+
+    &.h-boom-11 {
+      position: absolute;
+      animation: 2s moveup15 infinite;
+    }
+
+    &.h-boom-12 {
+      position: absolute;
+      animation: 2s moveup16 infinite;
+    }
+
+    &.h-boom-13 {
+      position: absolute;
+      animation: 2s moveup15 infinite;
+    }
+
+    &.h-boom-14 {
+      position: absolute;
+      animation: 2s moveup16 infinite;
+    }
+
+    &.h-boom-15 {
+      position: absolute;
+      animation: 2s moveup15 infinite;
+    }
+
+    &.h-boom-16 {
+      position: absolute;
+      animation: 2s moveup16 infinite;
+    }
+}
+
+@keyframes moveup0 {
+  0% {
+    top: -20%;
+    left: 0%;
+    opacity: 0;
+  }
+  80% {
+    top: -180%;
+    left: 0%;
+    opacity: 1;
+  }
+  100% {
+    top: -180%;
+    left: 0%;
+    opacity: 0;
+  }
+}
+ 
+@keyframes moveup1 {
+  0% {
+    top: -20%;
+    left: 10%;
+    opacity: 0;
+  }
+  80% {
+    top: -130%;
+    left: 8%;
+    opacity: 1;
+  }
+  100% {
+    top: -130%;
+    left: 8%;
+    opacity: 0;
+  }
+}
+ 
+@keyframes moveup2 {
+  0% {
+    top: -20%;
+    left: 10%;
+    opacity: 0;
+  }
+  80% {
+    top: -240%;
+    left: 12%;
+    opacity: 1;
+  }
+  100% {
+    top: -240%;
+    left: 12%;
+    opacity: 0;
+  }
+}
+ 
+@keyframes moveup3 {
+  0% {
+    top: -20%;
+    left: 20%;
+    opacity: 0;
+  }
+  80% {
+    top: -90%;
+    left: 22%;
+    opacity: 1;
+  }
+  100% {
+    top: -90%;
+    left: 22%;
+    opacity: 0;
+  }
+}
+ 
+
+@keyframes moveup4 {
+  0% {
+    top: -20%;
+    left: 23%;
+    opacity: 0;
+  }
+  80% {
+    top: -250%;
+    left: 24%;
+    opacity: 1;
+  }
+  100% {
+    top: -250%;
+    left: 24%;
+    opacity: 0;
+  }
+}
+ 
+
+@keyframes moveup5 {
+  0% {
+    top: -20%;
+    left: 35%;
+    opacity: 0;
+  }
+  80% {
+    top: -60%;
+    left: 33%;
+    opacity: 1;
+  }
+  100% {
+    top: -60%;
+    left: 33%;
+    opacity: 0;
+  }
+}
+
+@keyframes moveup6 {
+  0% {
+    top: -20%;
+    left: 40%;
+    opacity: 0;
+  }
+  80% {
+    top: -200%;
+    left: 39%;
+    opacity: 1;
+  }
+  100% {
+    top: -200%;
+    left: 39%;
+    opacity: 0;
+  }
+}
+
+@keyframes moveup7 {
+  0% {
+    top: -20%;
+    left: 40%;
+    opacity: 0;
+  }
+  80% {
+    top: -30%;
+    left: 43%;
+    opacity: 1;
+  }
+  100% {
+    top: -30%;
+    left: 43%;
+    opacity: 0;
+  }
+}
+
+@keyframes moveup8 {
+  0% {
+    top: -20%;
+    left: 50%;
+    opacity: 0;
+  }
+  80% {
+    top: -230%;
+    left: 50%;
+    opacity: 1;
+  }
+  100% {
+    top: -230%;
+    left: 50%;
+    opacity: 0;
+  }
+}
+
+@keyframes moveup9 {
+  0% {
+    top: -20%;
+    left: 60%;
+    opacity: 0;
+  }
+  80% {
+    top: -250%;
+    left: 62%;
+    opacity: 1;
+  }
+  100% {
+    top: -250%;
+    left: 62%;
+    opacity: 0;
+  }
+}
+
+@keyframes moveup10 {
+  0% {
+    top: -20%;
+    left: 50%;
+    opacity: 0;
+  }
+  80% {
+    top: -60%;
+    left: 52%;
+    opacity: 1;
+  }
+  100% {
+    top: -60%;
+    left: 52%;
+    opacity: 0;
+  }
+}
+
+@keyframes moveup11 {
+  0% {
+    top: -20%;
+    left: 60%;
+    opacity: 0;
+  }
+  80% {
+    top: -90%;
+    left: 66%;
+    opacity: 1;
+  }
+  100% {
+    top: -90%;
+    left: 66%;
+    opacity: 0;
+  }
+}
+
+@keyframes moveup12 {
+  0% {
+    top: -20%;
+    left: 70%;
+    opacity: 0;
+  }
+  80% {
+    top: -220%;
+    left: 73%;
+    opacity: 1;
+  }
+  100% {
+    top: -220%;
+    left: 73%;
+    opacity: 0;
+  }
+}
+
+@keyframes moveup13 {
+  0% {
+    top: -20%;
+    left: 80%;
+    opacity: 0;
+  }
+  80% {
+    top: -180%;
+    left: 83%;
+    opacity: 1;
+  }
+  100% {
+    top: -180%;
+    left: 83%;
+    opacity: 0;
+  }
+}
+
+@keyframes moveup14 {
+  0% {
+    top: -20%;
+    left: 80%;
+    opacity: 0;
+  }
+  80% {
+    top: -120%;
+    left: 75%;
+    opacity: 1;
+  }
+  100% {
+    top: -120%;
+    left: 75%;
+    opacity: 0;
+  }
+}
+
+@keyframes moveup15 {
+  0% {
+    bottom: 0%;
+    left: 2%;
+    opacity: 0;
+  }
+  80% {
+    bottom: 30%;
+    left: -10%;
+    opacity: 1;
+  }
+  100% {
+    bottom: 30%;
+    left: -10%;
+    opacity: 0;
+  }
+}
+
+@keyframes moveup16 {
+  0% {
+    bottom: 0%;
+    right: 3%;
+    opacity: 0;
+  }
+  80% {
+    bottom: 30%;
+    right: -8%;
+    opacity: 1;
+  }
+  100% {
+    bottom: 30%;
+    right: -8%;
+    opacity: 0;
+  }
+}
+ 

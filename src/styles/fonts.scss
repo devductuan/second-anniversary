@@ -1,0 +1,15 @@
+$dfvn-font-path: "../../public/fonts";
+
+@font-face {
+    // This is parsed as a normal function call that takes a quoted string.
+    src: url("../../public/fonts/dfvn-spring.otf") format("opentype");
+    font-family: "DFVN";
+    font-weight: 100;
+}
+
+@font-face {
+    // This is parsed as a normal function call that takes a quoted string.
+    src: url("../../public/fonts/dfvn-spring.ttf") format("truetype");
+    font-family: "DFVN";
+    font-weight: 100;
+}

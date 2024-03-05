@@ -1,0 +1,12 @@
+.modal-background {
+    backdrop-filter: blur(10px) brightness(80%);
+}
+
+
+.letter-container {
+    @apply bg-white overflow-y-scroll pb-11 lg:pb-4 lg:overflow-y-hidden overflow-x-hidden rounded-lg p-4 gap-4 flex lg:flex-row flex-col items-center bg-monoPink-100;
+
+    max-width: 1080px;
+    max-height: 800px;
+
+}

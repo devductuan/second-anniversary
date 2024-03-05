@@ -1,0 +1,200 @@
+.trans-width {
+    transition: max-width 0.3s ease-in-out;
+    overflow: hidden;
+
+    &.hide {
+        max-width: 0px;
+    }
+
+    &.show {
+        max-width: 1000px;
+    }
+}
+
+.trans-scale-top-left {
+    transition: all 0.2s cubic-bezier(0.3, 1.2, 0.2, 1);
+
+    &.trans-hide {
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0.8);
+
+        overflow: hidden;
+        transform-origin: top left;
+    }
+
+    &.trans-show {
+        opacity: 100;
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+.trans-scale-center {
+    transition: all 0.2s cubic-bezier(0.3, 1.2, 0.2, 1);
+
+    &.trans-hide {
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0.8);
+
+        overflow: hidden;
+    }
+
+    &.trans-show {
+        opacity: 100;
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+.trans-scale-top-right {
+    transition: all 0.2s cubic-bezier(0.3, 1.2, 0.2, 1);
+
+    &.trans-hide {
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0.8);
+
+        overflow: hidden;
+        transform-origin: top right;
+    }
+
+    &.trans-show {
+        opacity: 100;
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+.trans-scale-bottom-left {
+    transition: all 0.2s cubic-bezier(0.3, 1.2, 0.2, 1);
+
+    &.trans-hide {
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0.8);
+
+        overflow: hidden;
+        transform-origin: bottom left;
+    }
+
+    &.trans-show {
+        opacity: 100;
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+.trans-scale-bottom-right {
+    transition: all 0.2s cubic-bezier(0.3, 1.2, 0.2, 1);
+
+    &.trans-hide {
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0.8);
+
+        overflow: hidden;
+        transform-origin: bottom right;
+    }
+
+    &.trans-show {
+        opacity: 100;
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+.trans-scale-bottom-up {
+    transition: all 0.2s cubic-bezier(0.3, 1.2, 0.2, 1);
+
+    &.trans-hide {
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0.8);
+
+        overflow: hidden;
+        transform-origin: bottom;
+    }
+
+    &.trans-show {
+        opacity: 100;
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+.trans-scale-top-right-margin {
+    margin-top: 1.8rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.8);
+    transition: all 0.2s cubic-bezier(0.3, 1.2, 0.2, 1);
+    // overflow: hidden;
+    transform-origin: top right;
+    transition-property: opacity scale, visibility;
+    transition-duration: 0, 1s;
+    &.active {
+        opacity: 100;
+        transform: scale(1);
+        margin-top: 2.8rem;
+        visibility: visible;
+        transition-property: scale opacity, visibility;
+        transition-duration: 1s, 0;
+        transition-delay: 0, 1s;
+    }
+}
+
+.trans-max-height {
+    transition: all 0.2s ease-in-out;
+    max-height: 0px;
+    overflow: hidden;
+
+    &.active {
+        max-height: 100vh;
+    }
+}
+
+
+.trans-opacity {
+    transition: all 0.2s ease-in-out;
+
+    &.trans-hide {
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+        // margin-top: 30px;
+    }
+
+    &.trans-show {
+        opacity: 100;
+        transform: scale(1);
+        visibility: visible;
+        // margin-top: 0px;
+    }
+}
+
+.trans-to-right {
+    transition: all 0.2s ease-in-out;
+
+    &.trans-hide {
+        left: -100%;
+    }
+
+    &.trans-show {
+        left: 0%;
+    }
+}
+
+.trans-max-height {
+    transition: all 0.2s ease-in-out;
+    overflow : hidden;
+
+    &.trans-hide {
+        max-height: 0vh;
+    }
+
+    &.trans-show {
+        max-height: 100vh;
+    }
+}

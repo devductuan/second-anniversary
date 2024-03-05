@@ -1,0 +1,144 @@
+.song-duynhat {
+    position: absolute;
+    font-size: 20px;
+    top: -20px;
+    left: 10px;
+}
+
+.song-thuhue {
+    position: absolute;
+    font-size: 16px;
+    top: 40px;
+    left: 120px;
+}
+
+.song-duduong {
+    position: absolute;
+    top: 100px;
+    font-style: italic;
+    font-size: 30px;
+    left: 75px;
+
+    @screen xl {
+        font-size: 40px;
+        left: 150px;
+    }
+}
+
+.song-nhinthayemcuoi {
+    position: absolute;
+    font-size: 18px;
+    top: -50px;
+    left: 180px;
+
+    @screen xl {
+        font-size: 18px;
+        left: 330px;
+        top: 0px;
+    }
+}
+
+.song-tayeu {
+    position: absolute;
+    font-size: 25px;
+    top: 200px;
+    left: 25px;
+}
+
+.song-nheem {
+    position: absolute;
+    font-size: 20px;
+    top: 250px;
+    left: auto;
+    right:200px;
+
+    @screen xl {
+        position: absolute;
+        font-size: 20px;
+        top: 250px;
+        left: 370px;
+        right:auto;
+    }
+}
+
+.song-donxinhetdoi {
+    position: absolute;
+    font-size: 16px;
+    top: 260px;
+    left: 150px;
+
+
+    @screen xl {
+        left: 170px;
+        top: 300px;
+    }
+}
+
+.song-motngaybuon {
+    position: absolute;
+    font-size: 16px;
+    top: 280px;
+    right: 20px;
+
+     @screen xl {
+        position: absolute;
+        font-size: 16px;
+        top: 280px;
+        right: 300px;
+     }
+}
+
+.song-omem {
+    position: absolute;
+    font-size: 16px;
+    top: 20px;
+    right: 150px;
+
+    @screen xl {
+        position: absolute;
+        font-size: 16px;
+        top: 0px;
+        right: 400px;
+    }
+}
+
+.song-troimua {
+    position: absolute;
+    font-size: 16px;
+    top: -50px;
+    right: 0px;
+}
+
+.song-mailanguoianhyeu {
+    position: absolute;
+    top: 100px;
+    font-style: italic;
+    font-size: 30px;
+    right: 0px;
+
+    @screen xl {
+        right: 50px;
+        font-size: 40px;
+    }
+}
+
+.song-monguoccuaanh {
+    position: absolute;
+    font-size: 20px;
+    top: 180px;
+    right: 0px;
+    font-style: italic;
+
+    @screen xl {
+        position: absolute;
+        font-size: 20px;
+        top: 220px;
+        right: 0px;
+        font-style: italic;
+    }
+}
+
+.lyrics-container {
+    height: calc(100% - 333px);
+    white-space: pre-wrap;
+}
