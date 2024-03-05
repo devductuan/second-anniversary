@@ -29,16 +29,10 @@ function MusicPage({ }: Props) {
     return (
         <div className="music-container relative overflow-hidden">
             <button onClick={() => { setShowPlaylist(!showPlaylist) }} className={`${showPlaylist ? "block" : "hidden"} lg:hidden absolute top-36 right-0 z-100 bg-black text-monoPink-400 rounded-tr-md rounded-br-md p-1 text-3xl hover:bg-monoPink-400 hover:text-black`}><LuMenuSquare /></button>
-            <Transitioner
-                show={showPlaylist}
-                beforeTimeout={50}
-                afterTimeout={200}
-                beforeTransitionClass='trans-hide'
-                afterTransitionClass='trans-show'
-                className='trans-to-right playlist-container fixed overflow-y-auto '
-            >
+
+            <div className={`trans-to-right playlist-container fixed overflow-y-auto ${showPlaylist ? 'trans-show' : 'trans-hide'}`}>
                 <Playlist />
-            </Transitioner>
+            </div>
             <main className={`music-main h-full relative ${showPlaylist ? "has-margin" : "no-margin"} `}>
                 <div className="absolute top-36 z-100 bg-black flex flex-col rounded-tr-md rounded-br-md overflow-hidden">
                     <button onClick={() => { setShowPlaylist(!showPlaylist) }} className="text-monoPink-400 rounded-tr-md p-1 text-3xl hover:bg-monoPink-400 hover:text-black">
