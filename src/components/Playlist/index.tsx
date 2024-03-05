@@ -3,6 +3,8 @@ import Image from 'next/image'
 import React, { useContext } from 'react'
 import ImageContainer from '../ImageContainer'
 import { MusicContext } from '@/contexts/MusicContext'
+import { MdOutlineAudiotrack } from "react-icons/md";
+
 
 type Props = {}
 
@@ -25,7 +27,9 @@ function Playlist({ }: Props) {
                             backgroundColor: currentSong?.id === song.id ? "#FF6680" : ""
                         }}
                     >
-                        <span>{index + 1}.</span>
+                        {currentSong?.id === song.id ? <div className='animate-pulse'><MdOutlineAudiotrack /></div> : <span>{index + 1}.</span>}
+
+
                         <div className="flex items-center gap-2">
                             <ImageContainer className="relative" width={50} height={50} borderRadius={8}>
                                 <Image quality={10} style={{ objectFit: "cover" }} fill src={song.thumbnail} alt={song.id} />
