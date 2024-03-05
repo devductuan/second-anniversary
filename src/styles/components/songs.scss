@@ -139,6 +139,9 @@
 }
 
 .lyrics-container {
-    height: calc(100% - 333px);
-    white-space: pre-wrap;
+    height: calc(100% - 180px);
+    @screen lg {
+        height: calc(100% - 420px);
+        white-space: pre-wrap;
+    }
 }

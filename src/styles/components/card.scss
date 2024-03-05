@@ -68,7 +68,7 @@
     bottom: 50px;
     right: 20px;
 
-    @screen lg {
+    @screen xl {
         position: absolute;
         bottom: 70px;
         left: 200px;
@@ -101,4 +101,14 @@
     right: 200px;
     top: auto;
    }
+}
+
+.responsive-img-squared {
+    width: 100px;
+    height: 100px;
+
+    @screen lg {
+        width: 300px;
+        height: 300px;
+    }
 }

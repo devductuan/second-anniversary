@@ -15,7 +15,7 @@ type Props = {}
 
 function MusicPage({ }: Props) {
     const { setCurrentSong, currentSong } = useContext(MusicContext)
-    const [showPlaylist, setShowPlaylist] = useState(true)
+    const [showPlaylist, setShowPlaylist] = useState(false)
 
     useEffect(() => {
         console.log("first song:", songs[0], setCurrentSong)
