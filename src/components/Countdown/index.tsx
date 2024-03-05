@@ -31,9 +31,9 @@ function Countdown({ }: Props) {
                 <p className="text-4xl">{getDaysUntilNextAnniversary()}</p>
                 <p className="text-center"> ngày nữa là đến ngày kỉ niệm tiếp theo rùi</p>
                 <p className="text-4xl animate-ping my-4 "><FaHeart /></p>
-                <p className="italic ">Mình đã cùng nhau đi qua</p>
+                <p className=" ">Mình đã cùng nhau đi qua</p>
                 <p className="text-4xl">{dayjs().diff("2022-03-05", "days")}</p>
-                <p className="italic">ngày hạnh phúc</p>
+                <p className="">ngày hạnh phúc</p>
                 <div className="absolute -top-4 right-20 animate-bounce">
                     <ImageContainer width={50} height={50} borderRadius={50} className="relative">
                         <Image src="/images/Y23.webp" alt="y23" fill style={{ objectFit: "cover" }} quality={10} />

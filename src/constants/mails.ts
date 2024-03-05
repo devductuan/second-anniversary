@@ -19,10 +19,10 @@ export const mails = [
         content: "Em bé ngủ sớm ik"
     },
     {
-        content: "1, 2 tiếng đánh rắm. \nAnh nhớ em bé lắm"
+        content: "1, 2 tiếng đánh rắm \nAnh nhớ em bé lắm"
     },
     {
-        content: "1, 2 chiếc áo mới. \nYêu em nhất thế giới"
+        content: "1, 2 chiếc áo mới \nYêu em nhất thế giới"
     },
     {
         content: "Ở đây trăng có nhớ người \nỞ đây đang có 1 người nhớ trăng."
@@ -30,10 +30,10 @@ export const mails = [
         content: "Cá chép là để om dưa \nTim em chỉ để đón đưa anh vào."
     },
     {
-        content: "Em bé ngâm chân trước khi ngủ để ngủ cho ngon nhen"
+        content: "Em bé ngâm chân trước khi ngủ \nđể ngủ cho ngon nhen"
     },
     {
-        content: "Nhìn điện thoại hơi lâu gòy đoá, nhắm mắt đi ngủ ik!"
+        content: "Nhìn điện thoại hơi lâu gòy đoá, \nnhắm mắt đi ngủ ik!"
     }, {
         content: "Lêu lêu"
     }, {

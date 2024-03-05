@@ -39,7 +39,7 @@ function Mailbox({ }: Props) {
                         afterTransitionClass='trans-show'
                         className='trans-max-height'
                     >
-                        <div className="max-w-md text-center whitespace-pre bg-white border-4 rounded-lg p-4 border-monoPink-400">
+                        <div className="max-w-xs text-center whitespace-pre bg-white border-4 rounded-lg p-4 border-monoPink-400">
                             {mails[mailIndex].content}
                         </div>
                     </Transitioner>

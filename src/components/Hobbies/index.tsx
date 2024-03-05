@@ -15,7 +15,7 @@ function Hobbies({ }: Props) {
                     <div>
                         <Likes />
                     </div>
-                    <div className="mt-8 italic font-cursive">
+                    <div className="mt-8  font-cursive">
                         <p>Ngoài ra tớ còn thích:</p>
                         <ul>
                             <li>- Phê La trà vỏ cà phê</li>
