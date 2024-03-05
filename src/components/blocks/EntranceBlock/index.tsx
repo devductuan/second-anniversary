@@ -19,7 +19,7 @@ function EntranceBlock({ }: Props) {
     return (
         <div className="h-screen bg-monoPink-100 relative">
 
-            <div className={`absolute z-10 text-center flex items-center flex-col justify-center h-screen left-0 right-0 transition-all duration-200 ease-in-out ${tab === 0 ? "visible opacity-100" : "xl:invisible xl:opacity-0"}`}>
+            <div className={`absolute z-10 text-center flex items-center flex-col justify-center h-screen left-0 right-0 transition-all duration-200 ease-in-out ${tab === 0 ? "visible opacity-100" : "invisible opacity-0"}`}>
                 <h1 className="love-heading-1"><Typewriter text="Happy Anniversary!" typingSpeed={70} /></h1>
                 <p className="love-subheading mt-4"><Typewriter text="Em bé Thu Huệ của anh ❤️" typingSpeed={70} /></p>
             </div>
