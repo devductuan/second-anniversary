@@ -13,7 +13,7 @@ function MyLove({ }: Props) {
     const [showModal, setShowModal] = useState(false)
 
     return (
-        <div className="bg-monoPink-200 relative">
+        <div className="bg-monoPink-200 relative ">
             <SpringLayout>
                 <EntranceBlock />
             </SpringLayout>

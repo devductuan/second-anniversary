@@ -27,7 +27,7 @@ function MusicPage({ }: Props) {
     }, [currentSong])
 
     return (
-        <div className="music-container relative">
+        <div className="music-container relative overflow-hidden">
             <button onClick={() => { setShowPlaylist(!showPlaylist) }} className={`${showPlaylist ? "block" : "hidden"} lg:hidden absolute top-0 right-0 z-100 bg-black text-monoPink-400 rounded-tr-md rounded-br-md p-1 text-3xl hover:bg-monoPink-400 hover:text-black`}><LuMenuSquare /></button>
             <Transitioner
                 show={showPlaylist}
