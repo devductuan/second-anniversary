@@ -44,7 +44,8 @@ function AudioPlayer({ song, handleTimeUpdate }: Props) {
                 }}
                 onTimeUpdate={handleTimeUpdate}
                 style={{
-                    borderRadius: 0
+                    borderRadius: 0,
+                    width: "100%"
                 }} src={song.songUrl} controls />
         </div>
     )
